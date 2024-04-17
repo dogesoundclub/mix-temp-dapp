@@ -14,16 +14,16 @@ export const klaytn = defineChain({
   blockExplorers: {
     default: {
       name: 'Klaytn Scope',
-      url: 'https://klaytnscope.com/',
+      url: 'https://klaytnscope.com',
       apiUrl: 'https://api-cypress.klaytnscope.com/api',
     },
   },
   contracts: {
-    MixContract: {
+    mixContract: {
          address: '0xDd483a970a7A7FeF2B223C3510fAc852799a88BF',
         // blockCreated: 71_693_661,
     },
-    MateContract: {
+    mateContract: {
          address: '0xe47e90c58f8336a2f24bcd9bcb530e2e02e1e8ae',
         //  blockCreated: 64_116_899,
     },
@@ -31,7 +31,7 @@ export const klaytn = defineChain({
         address: '0x2b303fd0082e4b51e5a6c602f45545204bbbb4dc',
         // blockCreated: 84_007_508,
     },
-    BiasContract: {
+    biasContract: {
         address: 'xdedd727ab86bce5d416f9163b2448860bbde86d4',
         // blockCreated: 14_353_601,
     },
