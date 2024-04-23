@@ -1,0 +1,131 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/21.7.2/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js global bin
+
+PATH: 
+  /Users/abito/.deno/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/abito/Documents/google-cloud-sdk/bin:/Users/abito/Library/pnpm:/Users/abito/.nvm/versions/node/v20.12.1/bin:/opt/homebrew/bin:/Users/abito/.deno/bin:/opt/homebrew/sbin:/Users/abito/.cargo/bin:/Users/abito/.foundry/bin:/Users/abito/.radicle/bin:/Users/abito/.local/bin:/Users/abito/go/bin:/Users/abito/.local/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  21.7.2
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/abito/Documents/GitHub/mix-dapp/package.json: Expected double-quoted property name in JSON at position 2456 (line 70 column 3)
+      at JSON.parse (<anonymous>)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:310:30)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "mix.info",
+    "license": "MIT",
+    "description": "mix.info",
+    "dependencies": {
+      "@fontsource/inter": "^4.5.15",
+      "@fontsource/roboto-mono": "^4.5.10",
+      "@mdx-js/react": "^2.3.0",
+      "@next/mdx": "13.1.7-canary.10",
+      "@radix-ui/react-dropdown-menu": "^2.0.6",
+      "@radix-ui/react-icons": "^1.3.0",
+      "@radix-ui/react-tabs": "^1.0.4",
+      "@radix-ui/themes": "^3.0.2",
+      "@tanstack/react-query": "^5.17.19",
+      "@types/node-fetch": "^2.6.2",
+      "@upstash/redis": "^1.20.1",
+      "@vercel/analytics": "^1.0.0",
+      "@web3modal/wagmi": "^4.0.0-alpha.2",
+      "class-variance-authority": "^0.7.0",
+      "clsx": "^2.1.0",
+      "comma-number": "^2.1.0",
+      "date-fns": "^2.29.3",
+      "image-size": "^1.0.2",
+      "load-script": "^1.0.0",
+      "lucide-react": "^0.368.0",
+      "next": "14.0.5-canary.16",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-hot-toast": "^2.4.1",
+      "react-intersection-observer": "^8.34.0",
+      "react-tweet": "^3.1.1",
+      "react-wrap-balancer": "^0.2.4",
+      "react-youtube": "^10.1.0",
+      "swr": "^2.1.2",
+      "tailwind-merge": "^2.2.2",
+      "tailwindcss-animate": "^1.0.7",
+      "time-ago": "^0.2.1",
+      "viem": "^2.9.20",
+      "wagmi": "^2.5.2",
+      "word-wrap": "^1.2.5",
+      "@radix-ui/react-accessible-icon": "^1.0.3",
+      "@radix-ui/react-accordion": "^1.1.2",
+      "@radix-ui/react-alert-dialog": "^1.0.4",
+      "@radix-ui/react-aspect-ratio": "^1.0.3",
+      "@radix-ui/react-avatar": "^1.0.3",
+      "@radix-ui/react-checkbox": "^1.0.4",
+      "@radix-ui/react-collapsible": "^1.0.3",
+      "@radix-ui/react-context-menu": "^2.1.4",
+      "@radix-ui/react-dialog": "^1.0.4",
+      "@radix-ui/react-hover-card": "^1.0.6",
+      "@radix-ui/react-label": "^2.0.2",
+      "@radix-ui/react-menubar": "^1.0.3",
+      "@radix-ui/react-navigation-menu": "^1.1.3",
+      "@radix-ui/react-popover": "^1.0.6",
+      "@radix-ui/react-portal": "^1.0.4",
+      "@radix-ui/react-progress": "^1.0.3",
+      "@radix-ui/react-radio-group": "^1.1.3",
+      "@radix-ui/react-scroll-area": "^1.0.4",
+      "@radix-ui/react-select": "^2.0.0",
+      "@radix-ui/react-separator": "^1.0.3",
+      "@radix-ui/react-slider": "^1.1.2",
+      "@radix-ui/react-slot": "^1.0.2",
+      "@radix-ui/react-switch": "^1.0.3",
+      "@radix-ui/react-toast": "^1.1.4",
+      "@radix-ui/react-toggle": "^1.0.3",
+      "@radix-ui/react-toggle-group": "^1.0.4",
+      "@radix-ui/react-tooltip": "^1.0.6",
+      "@tanstack/react-table": "^8.9.1",
+      "cmdk": "^0.2.0",
+    },
+    "devDependencies": {
+      "@types/comma-number": "^2.1.0",
+      "@types/react": "^18.0.28",
+      "@types/react-dom": "^18.0.11",
+      "autoprefixer": "^10.4.14",
+      "eslint": "^8.56.0",
+      "eslint-config-next": "^14.0.4",
+      "postcss": "^8.4.21",
+      "prettier": "^2.8.4",
+      "tailwindcss": "^3.3.1",
+      "ts-node": "^10.9.2",
+      "tsx": "^4.7.2",
+      "typescript": "^5.4.5"
+    },
+    "pnpm": {
+      "peerDependencyRules": {
+        "ignoreMissing": [
+          "webpack",
+          "@mdx-js/loader"
+        ]
+      }
+    },
+    "scripts": {
+      "dev": "next dev -H 0.0.0.0",
+      "build": "next build",
+      "start": "next start"
+    },
+    "prettier": {
+      "arrowParens": "avoid"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

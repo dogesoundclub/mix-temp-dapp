@@ -13,7 +13,20 @@ module.exports = {
       // to how `dark:` gets enabled
       addVariant("theme-system", ".theme-system &");
     }),
-      require("tailwindcss-animate")
+      require("tailwindcss-animate"),
+    plugin(function({ addUtilities }) {
+      addUtilities({
+        '.border-border': {
+          // Your declarations here
+        },
+        '.bg-background': {
+          // Your declarations here
+        },
+        '.text-foreground': {
+          // Your declarations here
+        },
+      })
+    })
 ],
   future: {
     hoverOnlyWhenSupported: true,
